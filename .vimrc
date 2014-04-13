@@ -1,4 +1,3 @@
-" Use the Molokai theme (originally created for TextMate by Wimer Hazenberg)
 colorscheme elflord
 
 " Enhance command-line completion
@@ -52,3 +51,8 @@ set scrolloff=10
 " More History/Undo Levels
 set history=1000
 set undolevels=1000
+
+set autoindent
+set smartindent
+set shiftwidth=3
+set expandtab

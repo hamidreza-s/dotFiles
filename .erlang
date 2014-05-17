@@ -1,3 +1,3 @@
-Me = lists:subtract(os:cmd("whoami"), "\n").
-Path = "/home/" ++ Me ++ "/erlang/user_default".
+{ok, [[Home]]} = init:get_argument(home).
+Path = Home ++ "/erlang/user_default".
 code:load_abs(Path).

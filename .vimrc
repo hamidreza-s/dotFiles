@@ -7,11 +7,6 @@ set wildmenu
 set termencoding=utf-8
 set encoding=utf-8
 
-" Centralize backups, swapfiles and undo history
-set backupdir=/tmp
-set directory=/tmp
-set undodir=/tmp
-
 " Syntax Highlighting
 syntax on
 

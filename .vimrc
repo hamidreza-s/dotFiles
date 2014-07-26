@@ -52,3 +52,5 @@ set smartindent
 set shiftwidth=3
 set expandtab
 set foldmethod=indent
+set nofoldenable
+set foldlevel=1

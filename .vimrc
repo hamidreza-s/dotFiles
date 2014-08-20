@@ -54,3 +54,6 @@ set expandtab
 set foldmethod=indent
 set nofoldenable
 set foldlevel=1
+
+ " Show file name always
+set laststatus=2

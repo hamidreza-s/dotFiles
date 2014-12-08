@@ -57,3 +57,7 @@ set foldlevel=1
 
  " Show file name always
 set laststatus=2
+
+set backupdir=/tmp//
+set directory=/tmp//
+set undodir=/tmp//

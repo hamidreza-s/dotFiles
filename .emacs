@@ -17,6 +17,7 @@
 (desktop-save-mode 1)
 (setq backup-inhibited t)
 (setq auto-save-derault nil)
+(set-default 'truncate-lines t)
 
 ;; --- Melpa
 (require 'package)

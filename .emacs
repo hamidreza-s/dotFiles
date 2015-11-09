@@ -16,7 +16,7 @@
 ;; --- General
 (desktop-save-mode 1)
 (setq backup-inhibited t)
-(setq auto-save-derault nil)
+(setq auto-save-default nil)
 (set-default 'truncate-lines t)
 
 ;; --- Move Cursor

@@ -24,6 +24,7 @@
 (global-set-key (kbd "C-x <down>") 'windmove-down)
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 (global-set-key (kbd "C-x <right>") 'windmove-right)
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;; --- Melpa
 (require 'package)
